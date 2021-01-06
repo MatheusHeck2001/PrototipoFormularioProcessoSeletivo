@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Processo Seletivo</title>
+    <link rel="shortcut icon" href="icones/interrogacao.png">
+  </head>
+
+  <body>
+
+      <h1>Processo Seletivo</h1>
+
+      <h2>Bem-vindo à tela de cadastro do Processo Seletivo</h2>
+
+      <h3>Por favor, registre suas informações corretamente.</h3>
+
+      <form action="" method="post">
+
+        <label for="nome">Nome Completo</label>:
+        <input type="text" name="nome" value="" id="nome" maxlength="70"/>
+
+        <label for="email">E-mail para cadastro</label>:
+        <input type="text" name="email" value="" id="email" maxlength="70">
+
+        <br>
+
+        <label for="pne">Portador de necessidade especial</label>?
+
+        <input type="radio" name="pne" value="S" id="pneS"/> <label for="pne"> Sim </label>
+        <input type="radio" name="pne" value="N" id="pneN"/> <label for="pne"> Não </label>
+
+        <br>
+
+        <label for="genero">Gênero</label>:
+
+        <input name="genero" id="generoM" type="radio" value="M" /> <label for="nome"> Masculino </label>
+        <input name="genero" id="generoF" type="radio" value="F" /> <label for="nome"> Feminino </label>
+        <input name="genero" id="generoO" type="radio" value="-" /> <label for="nome"> Outro </label> 
+
+        <br>
+
+        <label for="cpf">CPF</label>:
+        <input type="text" name="cpf" value="" id="cpf" maxlength="12">
+
+        <br>
+
+        Cidade de preferência para realização da prova:
+        <select name="cidade">
+          <option value="floripa">Florianópolis - 4205407</option>
+          <option value="saoJose">São José - 4216602</option>
+          <option value="biguacu">Biguaçu - 4202305</option>
+          <option value="palhoca">Palhoça - 4211900</option>
+          <option value="antonioCarlos">Antônio Carlos - 4201208</option>
+        </select>
+
+        <br>
+
+        Linguagens de programação de preferência:
+        <input name="progLang" type="checkbox" value="nodeLang" id="node"/> <label for="node"> Node.js </label>
+        <input name="progLang" type="checkbox" value="phpLang" id="php"/> <label for="php"> PHP </label>
+        <input name="progLang" type="checkbox" value="javaLang" id="java"/> <label for="java"> JAVA </label>
+        <input name="progLang" type="checkbox" value="cSharpLang" id="cSharp"/> <label for="cSharp"> C# </label>
+        <input name="progLang" type="checkbox" value="cppLang" id="Cpp"/> <label for="Cpp"> C++ </label>
+
+        <br>
+
+        Experiência Prévia:
+        <select name=“exp” multiple size=6>
+          <option value=“dev”>Desenvolvedor</option>
+          <option value=“web”>Web Designer</option>
+          <option value=“tester”>Tester</option>
+          <option value=“analista”>Analista de Requisitos</option>
+          <option value=“dba”>DBA</option>
+          <option value=“-”>Outro</option>
+        </select>
+
+        <br>
+
+        Observações (se necessário):
+        <textarea rows="7" cols="80" name="obs"></textarea>
+
+        <br>
+
+        <label for="senha">Senha</label>:
+        <input type="password" name="senha" value="" id="senha"/>
+
+        <label for="senha">Confirme sua senha</label>:
+        <input type="password" name="senha" value="" id="senha"/>
+
+        <br>
+
+        <input type="submit" value="Enviar">
+      </form>
+
+      <img src="icones/positivo.png" alt="sinal de positivo" height="25%">
+
+      <br>
+
+      <h1>Boa Sorte!</h1>
+
+  </body>
+
+</html>
